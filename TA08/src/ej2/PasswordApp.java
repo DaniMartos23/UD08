@@ -11,7 +11,7 @@ public class PasswordApp {
 		System.out.print("Introduce longitud password nueva: ");
 		longitud= Integer.parseInt(sc.nextLine());
 		Password password2= new Password(longitud);
-		
+		sc.close();
 		System.out.println(password1);
 		
 		System.out.println(password2);
